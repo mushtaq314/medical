@@ -1,0 +1,11 @@
+:root{--bg:#0f172a;--card:#111827;--muted:#94a3b8;--border:#1f2937}
+html,body{height:100%}
+body{background:var(--bg);color:#e2e8f0}
+.card{background:var(--card);border:1px solid var(--border);border-radius:1rem}
+.form-control,.form-select{background:#0b1220;color:#e2e8f0;border:1px solid var(--border)}
+.form-control:focus{box-shadow:none;border-color:#3b82f6}
+.badge-src{font-size:.7rem}
+.small-dim{color:var(--muted)}
+.copy-btn{border-color:#475569;color:#e2e8f0}
+.copy-btn:hover{background:#1f2937}
+.footer-note{font-size:.85rem}
